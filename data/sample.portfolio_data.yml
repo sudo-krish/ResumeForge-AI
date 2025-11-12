@@ -1,0 +1,267 @@
+# portfolio_data.yml - Generic Resume Template
+# Replace all placeholder values with your actual information
+
+# ==============================================================================
+# PERSONAL INFORMATION
+# ==============================================================================
+personal:
+  # Basic Contact Information
+  name: "Your Full Name"
+  email: "your.email@example.com"
+  phone: "+1-XXX-XXX-XXXX"  # Include country code
+  website: "https://yourwebsite.com"  # Optional
+
+  # Professional Title (text before | becomes title in summary)
+  jobTitle: "Your Job Title | Optional Subtitle"
+
+  # Years of professional experience
+  yearsOfExperience: 0  # Change to your years of experience
+
+  # Address
+  address:
+    city: "Your City"
+    state: "Your State"
+    country: "Your Country"
+
+  # Social Media Links (optional)
+  socialLinks:
+    linkedin: "https://www.linkedin.com/in/your-profile"
+    github: "https://github.com/your-username"
+
+  # Top 3-4 Skills (become "specializations" in your summary)
+  topSkills:
+    - "Your Top Skill 1"
+    - "Your Top Skill 2"
+    - "Your Top Skill 3"
+    - "Your Top Skill 4"
+
+  # Achievements (first one becomes "key achievement" in summary, rest are listed separately)
+  achievements:
+    - "Your most impressive quantified achievement (e.g., Increased sales by 150% through strategic marketing)"
+    - "Your second major achievement"
+    - "Your third major achievement"
+
+  # All Your Skills (will be auto-categorized based on keywords)
+  # Add all your technical skills, tools, frameworks, languages here
+  skills:
+    # Cloud & Infrastructure
+    - "AWS (Amazon Web Services)"
+    - "Azure"
+    - "Google Cloud Platform"
+    - "Docker"
+    - "Kubernetes"
+
+    # Programming Languages
+    - "Python"
+    - "JavaScript"
+    - "Java"
+    - "C++"
+    - "SQL"
+
+    # Frameworks & Tools
+    - "React"
+    - "Node.js"
+    - "Django"
+    - "Flask"
+    - "TensorFlow"
+
+    # Databases
+    - "PostgreSQL"
+    - "MySQL"
+    - "MongoDB"
+    - "Redis"
+
+    # DevOps & CI/CD
+    - "Git"
+    - "GitHub Actions"
+    - "Jenkins"
+    - "Terraform"
+
+    # Add more skills as needed
+
+# ==============================================================================
+# WORK EXPERIENCE
+# ==============================================================================
+companies:
+  # First Job (Most Recent)
+  - name: "Company Name"
+    position: "Your Job Title"
+    description: "Brief description, City, State/Country"  # Last part after comma becomes location
+    duration: "Month Year - Present"  # e.g., "Jan 2023 - Present" or "Jan 2023 - Dec 2024"
+    current: true  # true if this is your current job, false otherwise
+
+    technologies:
+      - "Technology 1"
+      - "Technology 2"
+      - "Technology 3"
+
+    responsibilities:
+      - "Achievement 1 with quantifiable metrics (e.g., Increased efficiency by 40%)"
+      - "Achievement 2 with impact (e.g., Led team of 5 developers)"
+      - "Achievement 3 with specific technologies (e.g., Built RESTful API using Node.js)"
+      - "Achievement 4"
+      - "Achievement 5"
+      - "Achievement 6"
+
+  # Second Job
+  - name: "Previous Company Name"
+    position: "Previous Job Title"
+    description: "Brief description, City, State"
+    duration: "Month Year - Month Year"  # e.g., "Jun 2020 - Dec 2022"
+    current: false
+
+    technologies:
+      - "Technology 1"
+      - "Technology 2"
+
+    responsibilities:
+      - "Achievement 1 with metrics"
+      - "Achievement 2"
+      - "Achievement 3"
+      - "Achievement 4"
+
+  # Third Job (Optional - add more as needed)
+  - name: "Earlier Company"
+    position: "Earlier Position"
+    description: "Description, Location"
+    duration: "Month Year - Month Year"
+    current: false
+
+    technologies:
+      - "Technology 1"
+
+    responsibilities:
+      - "Achievement 1"
+      - "Achievement 2"
+      - "Achievement 3"
+
+# ==============================================================================
+# PROJECTS
+# ==============================================================================
+projects:
+  # Featured Project 1
+  - name: "Project Name 1"
+    description: "Brief one-line description of the project with impact/results"
+    featured: true  # Set to true for projects you want displayed (max 3 featured shown)
+
+    technologies:
+      - "Technology 1"
+      - "Technology 2"
+      - "Technology 3"
+
+    languages:
+      - "Programming Language 1"
+      - "Programming Language 2"
+
+    metrics:
+      metric1: "Value 1"  # e.g., users: "10,000+"
+      metric2: "Value 2"  # e.g., performance: "50% faster"
+
+    repository: "https://github.com/your-username/project-name"  # Optional
+    url: "https://project-demo-url.com"  # Optional
+
+  # Featured Project 2
+  - name: "Project Name 2"
+    description: "Another project description with quantified impact"
+    featured: true
+
+    technologies:
+      - "Technology 1"
+      - "Technology 2"
+
+    languages:
+      - "Language 1"
+
+    metrics:
+      impact: "Value"
+
+    repository: "https://github.com/your-username/project2"
+
+  # Featured Project 3
+  - name: "Project Name 3"
+    description: "Third project description"
+    featured: true
+
+    technologies:
+      - "Tech 1"
+      - "Tech 2"
+
+    languages:
+      - "Language"
+
+  # Non-Featured Project (Optional)
+  - name: "Side Project"
+    description: "Description"
+    featured: false  # Won't be displayed unless featured
+
+    technologies:
+      - "Tech"
+
+    languages:
+      - "Language"
+
+# ==============================================================================
+# EDUCATION
+# ==============================================================================
+education:
+  # Most Recent Degree
+  - degree: "Master of Science"  # e.g., M.S., M.Tech, MBA, B.S., B.Tech
+    field: "Your Field of Study"  # e.g., Computer Science, Data Science
+    university: "University Name"
+    location: "City, State/Country"
+    graduationYear: "2024"  # or "Expected 2025"
+    gpa: "3.8/4.0"  # Optional - remove if you don't want to include
+    coursework:  # Optional - relevant courses
+      - "Course 1"
+      - "Course 2"
+      - "Course 3"
+
+  # Bachelor's Degree
+  - degree: "Bachelor of Science"
+    field: "Your Major"
+    university: "University Name"
+    location: "City, State"
+    graduationYear: "2020"
+    gpa: "3.5/4.0"  # Optional
+    coursework:
+      - "Relevant Course 1"
+      - "Relevant Course 2"
+
+# ==============================================================================
+# CERTIFICATIONS
+# ==============================================================================
+certifications:
+  - name: "Certification Name"
+    issuer: "Issuing Organization"
+    dateIssued: "2024"  # or "Month Year"
+    credentialId: "CERT-12345"  # Optional
+    url: "https://verify-certification-url.com"  # Optional
+
+  - name: "Another Certification"
+    issuer: "Certifying Body"
+    dateIssued: "2023"
+    credentialId: "ABC123XYZ"
+    url: "https://verification-url.com"
+
+  - name: "Third Certification"
+    issuer: "Organization"
+    dateIssued: "2022"
+
+# ==============================================================================
+# RESEARCH PAPERS / PUBLICATIONS (Optional)
+# ==============================================================================
+researchPapers:
+  - title: "Title of Your Research Paper or Blog Post"
+    journal: "Journal Name / Conference / Blog Platform"
+    datePublished: 2024
+    authors:
+      - "Your Name"
+      - "Co-Author Name"
+    url: "https://link-to-paper.com"
+
+  - title: "Another Publication"
+    journal: "Publication Venue"
+    datePublished: 2023
+    authors:
+      - "Your Name"
+    url: "https://publication-url.com"

@@ -1,0 +1,403 @@
+# portfolio_data.yml - Krishnanand Anil
+# Senior Data Engineer | AWS Cloud Expert
+
+# ==============================================================================
+# PERSONAL INFORMATION
+# ==============================================================================
+personal:
+  # Basic Contact Information
+  name: "Krishnanand Anil"
+  email: "krishnanandpanil@gmail.com"
+  phone: "+91-8281974055"
+  website: "https://krishnanandanil.com"
+
+  # Professional Title
+  jobTitle: "Senior Data Engineer | AWS Cloud Expert | Specialized in Scalable Data Pipelines, Redshift, and Data Lake Architecture"
+
+  # Years of professional experience (since July 2020)
+  yearsOfExperience: 5
+
+  # Address
+  address:
+    city: "Bengaluru"
+    state: "Karnataka"
+    country: "India"
+
+  # Social Media Links
+  socialLinks:
+    linkedin: "https://www.linkedin.com/in/krishnanand-anil"
+    github: "https://github.com/sudo-krish"
+
+  # Top 3-4 Skills (specializations)
+  topSkills:
+    - "Real-Time Data Engineering"
+    - "Cloud Architecture (AWS)"
+    - "AI/ML Pipeline Development"
+    - "Distributed Systems & Streaming"
+
+  # Achievements (first becomes key achievement in summary)
+  achievements:
+    - "Reduced data pipeline latency by 99% (from 3 hours to real-time) processing 50M+ events daily"
+    - "Improved report accuracy by 38% and reduced manual reporting effort by 80% through automated ETL/ELT workflows"
+    - "Built AI-ready analytics platform reducing time-to-insight by 70% with vector databases and natural language querying"
+
+  # All Skills (comprehensive list from your profile)
+  skills:
+    # Cloud & AWS Services
+    - "AWS (Amazon Web Services)"
+    - "AWS Lambda (Serverless Compute)"
+    - "AWS Glue (ETL Service)"
+    - "AWS EMR (Elastic MapReduce)"
+    - "Amazon Kinesis (Real-Time Streaming)"
+    - "AWS DMS (Database Migration Service)"
+    - "Amazon Redshift (Data Warehouse)"
+    - "Amazon S3 (Object Storage)"
+    - "AWS RDS (Relational Database Service)"
+    - "Amazon DynamoDB (NoSQL Database)"
+    - "Amazon SQS (Simple Queue Service)"
+    - "Amazon SNS (Simple Notification Service)"
+    - "AWS Step Functions"
+
+    # Data Engineering & Big Data
+    - "Apache Kafka (Distributed Streaming)"
+    - "Debezium (Change Data Capture/CDC)"
+    - "Apache Airflow (Workflow Orchestration)"
+    - "dbt (Data Build Tool)"
+    - "Apache Spark (Distributed Processing)"
+    - "PySpark (Python + Spark)"
+    - "Apache Hive (Big Data Query)"
+    - "Hadoop (Distributed Computing)"
+    - "Informatica PowerCenter (ETL)"
+    - "Autosys (Workflow Automation)"
+
+    # Programming & Scripting
+    - "Python (Advanced)"
+    - "SQL (Advanced - PostgreSQL, MySQL, T-SQL)"
+    - "PL/SQL (Oracle)"
+    - "Shell Scripting (Bash)"
+    - "Pandas (Data Manipulation)"
+    - "NumPy (Numerical Computing)"
+
+    # Databases
+    - "Amazon Aurora (PostgreSQL/MySQL)"
+    - "PostgreSQL"
+    - "MySQL"
+    - "Oracle Database"
+    - "Redis (In-Memory Cache)"
+    - "Apache Parquet (Columnar Storage)"
+
+    # Data Architecture & Modeling
+    - "Medallion Architecture (Bronze/Silver/Gold)"
+    - "Data Mesh Architecture"
+    - "Data Warehousing"
+    - "Data Modeling (Dimensional, Star Schema)"
+    - "ETL/ELT Pipeline Development"
+    - "Real-Time Data Pipelines"
+    - "CDC (Change Data Capture)"
+    - "Batch Processing"
+    - "Streaming Architecture"
+    - "Event-Driven Systems"
+    - "Multi-Tenant Architecture"
+
+    # AI/ML & Advanced Analytics
+    - "AI/ML Pipeline Development"
+    - "Vector Databases (Semantic Search)"
+    - "Deep Learning"
+    - "Natural Language Querying (NLQ)"
+    - "GraphQL APIs"
+
+    # DevOps & CI/CD
+    - "Docker (Containerization)"
+    - "Kubernetes (Container Orchestration)"
+    - "Git (Version Control)"
+    - "CI/CD Pipelines"
+
+    # Data Quality & Governance
+    - "Data Governance"
+    - "Data Quality & Validation"
+    - "Data Masking"
+    - "Data Encryption"
+    - "Data Lineage & Observability"
+
+    # Other Technologies
+    - "JSON Processing"
+    - "REST APIs"
+    - "Multiprocessing (Python)"
+    - "SCD Type 2 (Slowly Changing Dimensions)"
+    - "QlikView (BI Reporting)"
+    - "SAP Integration"
+    - "Salesforce Integration"
+
+# ==============================================================================
+# WORK EXPERIENCE
+# ==============================================================================
+companies:
+  # Current Job - DTDC Express Limited
+  - name: "DTDC Express Limited"
+    position: "Senior Data Engineer"
+    description: "Led end-to-end data engineering initiatives, Bengaluru, Karnataka"
+    duration: "Dec 2024 - Present"
+    current: true
+
+    technologies:
+      - "Apache Kafka"
+      - "Debezium"
+      - "Apache Airflow"
+      - "dbt"
+      - "Python"
+      - "AWS Lambda"
+      - "Amazon Kinesis"
+      - "Amazon Redshift"
+      - "PostgreSQL"
+      - "Vector Databases"
+      - "GraphQL"
+
+    responsibilities:
+      - "Architected high-throughput event-driven streaming pipeline using Apache Kafka and Debezium processing 50M+ tracking events daily with 99.9% uptime and sub-second latency"
+      - "Reduced data latency by 99% (from 3 hours batch processing to real-time CDC) by replacing legacy systems with modern streaming architecture"
+      - "Designed unified enterprise data warehouse on Amazon Redshift serving as single source of truth for Finance, Operations, and Business analytics teams (200+ users)"
+      - "Reduced manual reporting effort by 80% through automated ETL/ELT workflows using dbt (Data Build Tool), Apache Airflow, and Python"
+      - "Built AI-ready analytics platform with vector databases enabling natural language querying and semantic search"
+      - "Reduced time-to-insight by 70% enabling self-service analytics without SQL knowledge for business users through NLQ (Natural Language Querying) interface"
+
+  # Previous Job - Quantiphi
+  - name: "Quantiphi Analytics Solutions"
+    position: "Senior Data Engineer"
+    description: "Designed high-performance real-time and batch data pipelines, Bengaluru, Karnataka"
+    duration: "Feb 2024 - Nov 2024"
+    current: false
+
+    technologies:
+      - "AWS Glue"
+      - "AWS Lambda"
+      - "AWS EMR"
+      - "Amazon Redshift"
+      - "AWS RDS (Aurora PostgreSQL)"
+      - "Amazon DynamoDB"
+      - "Amazon Kinesis"
+      - "Amazon SQS"
+      - "AWS DMS"
+      - "Python"
+      - "Medallion Architecture"
+
+    responsibilities:
+      - "Built near real-time reporting platform creating reports every 5 minutes on millions of records, serving 100+ automated reports to end users with 99% accuracy"
+      - "Architected real-time streaming pipelines from AWS RDS (Aurora PostgreSQL) to Amazon Redshift using AWS DMS, Lambda, Kinesis, and SQS reducing data latency from hours to seconds"
+      - "Processed 4M+ daily events through streaming pipeline with sub-minute latency enabling real-time business intelligence and operational dashboards"
+      - "Optimized Redshift query performance and data validation pipelines increasing report accuracy from 60% to 98% (38% improvement)"
+      - "Implemented automated data ingestion pipelines importing 100+ tables from REST APIs to Amazon Redshift with S3 staging and error handling"
+      - "Led feasibility studies for database migration from on-premise Oracle to AWS Aurora PostgreSQL optimizing performance and reducing infrastructure costs by 30%"
+
+  # Cognizant - Associate
+  - name: "Cognizant Technology Solutions"
+    position: "Associate (Senior Data Engineer)"
+    description: "Designed medallion architecture and multi-tenant data systems, Kochi, Kerala"
+    duration: "Oct 2022 - Feb 2024"
+    current: false
+
+    technologies:
+      - "Amazon Redshift"
+      - "AWS Glue"
+      - "AWS EMR"
+      - "Hadoop"
+      - "Apache Hive"
+      - "Informatica PowerCenter"
+      - "QlikView"
+      - "SAP"
+      - "Oracle"
+      - "Salesforce"
+      - "Python"
+      - "Shell Scripting"
+
+    responsibilities:
+      - "Designed and built medallion architecture on Amazon Redshift for scalable enterprise data warehouse serving 500+ business users across multiple business units"
+      - "Created multi-tenant data architecture integrating SAP ERP, Amazon S3, Oracle databases, flat files, and Salesforce CRM into unified dimensional model"
+      - "Built and optimized materialized views implementing complex business logic for high-performance reporting and analytics"
+      - "Collaborated with QlikView specialists to generate business intelligence reports and dashboards for executive decision-making"
+      - "Implemented data governance frameworks using data masking, encryption, and access controls ensuring GDPR and security compliance"
+      - "Created monitoring shell scripts to collect and centralize log data from Hadoop clusters, EMR, and multiple Linux servers for observability"
+
+  # Cognizant - Program Analyst
+  - name: "Cognizant Technology Solutions"
+    position: "Program Analyst"
+    description: "Big Data ETL development and optimization, Kochi, Kerala"
+    duration: "Aug 2021 - Oct 2022"
+    current: false
+
+    technologies:
+      - "Informatica PowerCenter"
+      - "Apache Hive"
+      - "Hadoop"
+      - "SQL"
+      - "Shell Scripting (Bash)"
+      - "Autosys"
+
+    responsibilities:
+      - "Designed and implemented near real-time and batch data pipelines using AWS Glue, Hadoop, and Informatica PowerCenter reducing processing time by 30%"
+      - "Enhanced big data load and refresh performance by 20% through Spark optimization, data partitioning, and Hive query tuning strategies"
+      - "Automated repetitive DevOps tasks (deployments, monitoring, backups) using Python and Bash scripts increasing team efficiency by 40%"
+      - "Created, tested, and deployed ETL workflows in Informatica PowerCenter with complex transformations and error handling"
+      - "Analyzed production issues and enhanced SQL queries to meet evolving business requirements and improve query performance"
+
+  # Cognizant - Programmer Analyst Trainee
+  - name: "Cognizant Technology Solutions"
+    position: "Programmer Analyst Trainee"
+    description: "ETL development and automation, Kochi, Kerala"
+    duration: "Aug 2020 - Aug 2021"
+    current: false
+
+    technologies:
+      - "Informatica PowerCenter"
+      - "SQL"
+      - "Autosys"
+      - "Apache Hive"
+      - "Hadoop Sqoop"
+
+    responsibilities:
+      - "Created ETL mappings in Informatica PowerCenter for data transformation and loading workflows"
+      - "Wrote and maintained clean, optimized SQL queries for data extraction and reporting"
+      - "Automated ETL workflows in Informatica through Autosys job scheduling and monitoring"
+      - "Worked with Hive and Hadoop Sqoop export scripts for big data processing"
+
+# ==============================================================================
+# PROJECTS
+# ==============================================================================
+projects:
+  # Featured Project 1 - Real-Time Tracking Platform
+  - name: "Real-Time Event-Driven Tracking Data Platform"
+    description: "High-throughput streaming pipeline processing 50M+ tracking events daily with sub-second latency using Apache Kafka and Debezium CDC"
+    featured: true
+
+    technologies:
+      - "Apache Kafka"
+      - "Debezium"
+      - "AWS Lambda"
+      - "Amazon Kinesis"
+      - "PostgreSQL"
+
+    languages:
+      - "Python"
+      - "SQL"
+
+    metrics:
+      volume: "50M+ events/day"
+      latency: "Sub-second"
+      improvement: "99% latency reduction"
+
+  # Featured Project 2 - Enterprise Data Warehouse
+  - name: "Enterprise Data Warehouse with Medallion Architecture"
+    description: "Unified Finance & Business analytics platform with automated dbt transformations and Airflow orchestration reducing reporting effort by 80%"
+    featured: true
+
+    technologies:
+      - "Amazon Redshift"
+      - "dbt (Data Build Tool)"
+      - "Apache Airflow"
+      - "AWS Glue"
+      - "AWS Lambda"
+
+    languages:
+      - "Python"
+      - "SQL"
+
+    metrics:
+      users: "200+"
+      efficiency: "80% reduction in manual reporting"
+
+  # Featured Project 3 - AI-Ready Analytics Platform
+  - name: "AI-Ready Analytics & Vector Intelligence Platform"
+    description: "GenAI-powered analytics platform with vector databases, RAG architecture, and natural language querying reducing time-to-insight by 70%"
+    featured: true
+
+    technologies:
+      - "Vector Databases (Pinecone, Weaviate)"
+      - "RAG (Retrieval-Augmented Generation)"
+      - "LLM Integration"
+      - "Langchain"
+      - "GraphQL"
+      - "AWS Lambda"
+
+    languages:
+      - "Python"
+
+    metrics:
+      improvement: "70% faster insights"
+      feature: "Natural Language Querying"
+
+# ==============================================================================
+# EDUCATION
+# ==============================================================================
+education:
+  # Master's Degree
+  - degree: "Master of Technology (M.Tech)"
+    field: "Data Science and Engineering"
+    university: "Birla Institute of Technology and Science (BITS Pilani)"
+    location: "Pilani, Rajasthan"
+    graduationYear: "2024"
+    coursework:
+      - "Machine Learning"
+      - "Deep Learning"
+      - "Big Data Systems"
+      - "Data Mining"
+      - "Statistical Methods"
+
+  # Bachelor's Degree
+  - degree: "Bachelor of Technology (B.Tech)"
+    field: "Mechanical Engineering"
+    university: "Amrita School of Engineering (Amrita Vishwa Vidyapeetham)"
+    location: "Amritapuri, Kerala"
+    graduationYear: "2020"
+
+# ==============================================================================
+# CERTIFICATIONS
+# ==============================================================================
+certifications:
+  - name: "AWS Certified Solutions Architect - Associate"
+    issuer: "Amazon Web Services (AWS)"
+    dateIssued: "2023"
+
+  - name: "AWS Certified Cloud Practitioner"
+    issuer: "Amazon Web Services (AWS)"
+    dateIssued: "2022"
+
+  - name: "Hadoop 101 - Big Data Fundamentals"
+    issuer: "IBM (International Business Machines)"
+    dateIssued: "2021"
+
+  - name: "Spark and Python for Big Data with PySpark"
+    issuer: "Udemy"
+    dateIssued: "2021"
+
+  - name: "Fundamentals of the Databricks Lakehouse Platform Accreditation (V2)"
+    issuer: "Databricks"
+    dateIssued: "2023"
+
+  - name: "SQL for Beginners: Learn SQL using MySQL and Database Design"
+    issuer: "Udemy"
+    dateIssued: "2020"
+
+  - name: "The Python Bible™ | Everything You Need to Program in Python"
+    issuer: "Udemy"
+    dateIssued: "2020"
+
+  - name: "The Project Management Course: Beginner to PROject Manager"
+    issuer: "Udemy"
+    dateIssued: "2022"
+
+# ==============================================================================
+# RESEARCH PAPERS / PUBLICATIONS
+# ==============================================================================
+researchPapers:
+  - title: "Design and Control of an Automated SCARA Robotic Arm with a Pneumatic Soft Gripper"
+    journal: "IOP Journal of Physics: Conference Series"
+    datePublished: 2021
+    authors:
+      - "Krishnanand Anil"
+    url: ""
+
+  - title: "Estimation of Vehicular Emissions of Major Districts in Kerala"
+    journal: "International Journal of Psychosocial Rehabilitation"
+    datePublished: 2020
+    authors:
+      - "Krishnanand Anil"
+    url: ""
